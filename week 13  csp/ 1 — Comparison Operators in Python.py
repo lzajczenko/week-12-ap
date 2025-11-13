@@ -31,14 +31,19 @@ print(a <= b)   # True
 a = 5
 b = 2
 
-a == b #False
-a < b #False
-b < a #True
-a != b #False
-a == a #True
-b == b #True
+print(a == b) #False
+print(a < b) #False
+print(b < a) #True
+print(a != b) #False
+print(a == a) #True
+print(b == b) #True
 
 # Create a simple grade-checking condition:
 
 # practice problem :
 # where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+grade = int(input("Enter your name"))
+if grade >= 60:
+    print("You passed the test!")
+else:
+    print("You did not pass the test.")
