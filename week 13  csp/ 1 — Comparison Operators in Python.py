@@ -14,7 +14,7 @@ a = 3
 b = 4
 
 print(a == b)   # False
-print(a != b)   # True
+print(a != b)   # True, means not equal to
 print(a > b)    # False
 print(a < b)    # True
 print(a >= b)   # False
@@ -22,12 +22,21 @@ print(a <= b)   # True
 
 
 #predict the output of the following comparisons:
-10 > 5
-7 == 2 * 3 + 1
-8 != 8
-4 <= 2 + 2
+10 > 5 #True
+7 == 2 * 3 + 1 #True
+8 != 8 #False
+4 <= 2 + 2 #True
 
 # Write 3 examples that result in True and 3 that result in False.
+a = 5
+b = 2
+
+a == b #False
+a < b #False
+b < a #True
+a != b #False
+a == a #True
+b == b #True
 
 # Create a simple grade-checking condition:
 
